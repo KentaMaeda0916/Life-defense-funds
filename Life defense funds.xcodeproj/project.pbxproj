@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4337D4B1249D8FB200C47289 /* IncomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337D4B0249D8FB200C47289 /* IncomView.swift */; };
+		4337D4B3249EB80200C47289 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337D4B2249EB80200C47289 /* Date.swift */; };
+		4337D4B5249EE08C00C47289 /* SpendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337D4B4249EE08C00C47289 /* SpendingView.swift */; };
+		4337D4B7249F855700C47289 /* TaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337D4B6249F855700C47289 /* TaxView.swift */; };
+		43659DDA2464E29900D58EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43659DD92464E29900D58EB4 /* AppDelegate.swift */; };
+		43659DDC2464E29900D58EB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43659DDB2464E29900D58EB4 /* SceneDelegate.swift */; };
+		43659DDE2464E29900D58EB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43659DDD2464E29900D58EB4 /* ContentView.swift */; };
+		43659DE02464E2A200D58EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43659DDF2464E2A200D58EB4 /* Assets.xcassets */; };
+		43659DE32464E2A200D58EB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43659DE22464E2A200D58EB4 /* Preview Assets.xcassets */; };
+		43659DE62464E2A200D58EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43659DE42464E2A200D58EB4 /* LaunchScreen.storyboard */; };
+		43659DEE2464E55200D58EB4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43659DED2464E55200D58EB4 /* HomeView.swift */; };
+		43659DFE2464EA4D00D58EB4 /* TargetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43659DFD2464EA4D00D58EB4 /* TargetRow.swift */; };
+		43659E002464EA7D00D58EB4 /* BalanceOfPaymentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43659DFF2464EA7D00D58EB4 /* BalanceOfPaymentsRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4337D4B0249D8FB200C47289 /* IncomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomView.swift; sourceTree = "<group>"; };
+		4337D4B2249EB80200C47289 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		4337D4B4249EE08C00C47289 /* SpendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingView.swift; sourceTree = "<group>"; };
+		4337D4B6249F855700C47289 /* TaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxView.swift; sourceTree = "<group>"; };
+		43659DD62464E29900D58EB4 /* Life defense funds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life defense funds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43659DD92464E29900D58EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43659DDB2464E29900D58EB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43659DDD2464E29900D58EB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43659DDF2464E2A200D58EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43659DE22464E2A200D58EB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43659DE52464E2A200D58EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43659DE72464E2A200D58EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43659DED2464E55200D58EB4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		43659DFD2464EA4D00D58EB4 /* TargetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetRow.swift; sourceTree = "<group>"; };
+		43659DFF2464EA7D00D58EB4 /* BalanceOfPaymentsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceOfPaymentsRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43659DD32464E29900D58EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43659DCD2464E29900D58EB4 = {
+			isa = PBXGroup;
+			children = (
+				43659DD82464E29900D58EB4 /* Life defense funds */,
+				43659DD72464E29900D58EB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43659DD72464E29900D58EB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43659DD62464E29900D58EB4 /* Life defense funds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43659DD82464E29900D58EB4 /* Life defense funds */ = {
+			isa = PBXGroup;
+			children = (
+				43659DD92464E29900D58EB4 /* AppDelegate.swift */,
+				43659DDB2464E29900D58EB4 /* SceneDelegate.swift */,
+				43659DDD2464E29900D58EB4 /* ContentView.swift */,
+				4337D4B2249EB80200C47289 /* Date.swift */,
+				43659DFB2464E72D00D58EB4 /* Views */,
+				43659DFC2464E74B00D58EB4 /* Rows */,
+				43659DDF2464E2A200D58EB4 /* Assets.xcassets */,
+				43659DE42464E2A200D58EB4 /* LaunchScreen.storyboard */,
+				43659DE72464E2A200D58EB4 /* Info.plist */,
+				43659DE12464E2A200D58EB4 /* Preview Content */,
+			);
+			path = "Life defense funds";
+			sourceTree = "<group>";
+		};
+		43659DE12464E2A200D58EB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43659DE22464E2A200D58EB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43659DFB2464E72D00D58EB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43659DED2464E55200D58EB4 /* HomeView.swift */,
+				4337D4B0249D8FB200C47289 /* IncomView.swift */,
+				4337D4B6249F855700C47289 /* TaxView.swift */,
+				4337D4B4249EE08C00C47289 /* SpendingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43659DFC2464E74B00D58EB4 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				43659DFF2464EA7D00D58EB4 /* BalanceOfPaymentsRow.swift */,
+				43659DFD2464EA4D00D58EB4 /* TargetRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43659DD52464E29900D58EB4 /* Life defense funds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43659DEA2464E2A200D58EB4 /* Build configuration list for PBXNativeTarget "Life defense funds" */;
+			buildPhases = (
+				43659DD22464E29900D58EB4 /* Sources */,
+				43659DD32464E29900D58EB4 /* Frameworks */,
+				43659DD42464E29900D58EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Life defense funds";
+			productName = "Life defense funds";
+			productReference = 43659DD62464E29900D58EB4 /* Life defense funds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43659DCE2464E29900D58EB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = maeken;
+				TargetAttributes = {
+					43659DD52464E29900D58EB4 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 43659DD12464E29900D58EB4 /* Build configuration list for PBXProject "Life defense funds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43659DCD2464E29900D58EB4;
+			productRefGroup = 43659DD72464E29900D58EB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43659DD52464E29900D58EB4 /* Life defense funds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43659DD42464E29900D58EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43659DE62464E2A200D58EB4 /* LaunchScreen.storyboard in Resources */,
+				43659DE32464E2A200D58EB4 /* Preview Assets.xcassets in Resources */,
+				43659DE02464E2A200D58EB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43659DD22464E29900D58EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4337D4B7249F855700C47289 /* TaxView.swift in Sources */,
+				43659DDA2464E29900D58EB4 /* AppDelegate.swift in Sources */,
+				43659DEE2464E55200D58EB4 /* HomeView.swift in Sources */,
+				43659DFE2464EA4D00D58EB4 /* TargetRow.swift in Sources */,
+				4337D4B3249EB80200C47289 /* Date.swift in Sources */,
+				4337D4B1249D8FB200C47289 /* IncomView.swift in Sources */,
+				43659DDC2464E29900D58EB4 /* SceneDelegate.swift in Sources */,
+				43659DDE2464E29900D58EB4 /* ContentView.swift in Sources */,
+				4337D4B5249EE08C00C47289 /* SpendingView.swift in Sources */,
+				43659E002464EA7D00D58EB4 /* BalanceOfPaymentsRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43659DE42464E2A200D58EB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43659DE52464E2A200D58EB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43659DE82464E2A200D58EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43659DE92464E2A200D58EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43659DEB2464E2A200D58EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Life defense funds/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Life defense funds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maeken.Life-defense-funds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43659DEC2464E2A200D58EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Life defense funds/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Life defense funds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maeken.Life-defense-funds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43659DD12464E29900D58EB4 /* Build configuration list for PBXProject "Life defense funds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43659DE82464E2A200D58EB4 /* Debug */,
+				43659DE92464E2A200D58EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43659DEA2464E2A200D58EB4 /* Build configuration list for PBXNativeTarget "Life defense funds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43659DEB2464E2A200D58EB4 /* Debug */,
+				43659DEC2464E2A200D58EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43659DCE2464E29900D58EB4 /* Project object */;
+}
