@@ -1,0 +1,13 @@
+[
+    {
+        "id": "1",
+        "flavor": 0,
+        "iceCream": 1,
+    },
+    {
+        "id": "2",
+        "flavor": 1,
+        "iceCream": 2,
+
+    }
+]
